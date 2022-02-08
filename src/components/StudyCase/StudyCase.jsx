@@ -7,7 +7,7 @@ const StudyCase = () => {
   const cleanedClientName = clientname.substring(0, clientname.indexOf('-'))[0].toUpperCase() + clientname.substring(0, clientname.indexOf('-')).substring(1);
   const clientDetails = workData.find(c => c.name === cleanedClientName);
   return (
-    <div className="study-case">
+    <div className="study-case anim">
       <h2>{clientDetails.title}</h2>
       {clientDetails.body}
     </div>

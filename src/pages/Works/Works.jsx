@@ -6,7 +6,7 @@ import darkContext from '../../darkContext';
 const Works = () => {
   const dark = useContext(darkContext);
   return (
-    <div className="section-wrapper">
+    <div className="section-wrapper anim">
       <h1>Au fil des années, nous avons pu accompagner les meilleurs.</h1>
       <p>
         Découvrez pas à pas comment nous avons été présent pour lancer vos marques préférées.

@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="section-wrapper">
+    <div className="section-wrapper anim">
       <h1>The Hacking Agency est une agence de communication digitale à paris ayant pour mission de vous accompagner sur vos projets digitaux.</h1>
       <p>
         De l’étape d’avant projet web au lancement effectif du site, nous somme là pour vous. 

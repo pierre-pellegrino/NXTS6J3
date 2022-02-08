@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div className="section-wrapper">
+    <div className="section-wrapper anim">
       <h1>Confiez vos rêves à des experts du Web</h1>
       <p>
         Grâce à notre savoir-faire, notre expérience et notre écoute, nous accompagnons nos clients dans la création de site internet: 

@@ -28,3 +28,35 @@
     }
   }
 }
+
+.work-card {
+  padding: 12px;
+  border: 1px solid $light-bg;
+  margin: 16px auto;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  max-width: 256px;
+
+  &.light-mode{
+    border-color: $dark-bg;
+  }
+
+  p {
+    margin: 16px 0 0;
+  }
+}
+
+.settings-icon {
+  position: absolute;
+  right: 0;
+  top: 3em;
+  font-size: 1.8em;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}

@@ -1,0 +1,30 @@
+.works-list {
+  margin-top: 32px;
+  
+  a {
+    margin: 0 32px;
+    padding: 6px 12px;
+    position: relative;
+    font-size: 1.1em;
+    font-weight: bolder;
+    text-align: center;
+
+    &.dark-mode:after {
+      background-color: rgba(255,255,255,0.1);
+    }
+
+    &.light-mode:after {
+      background-color: rgba(0,0,0,0.1);
+    }
+
+    &:after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
